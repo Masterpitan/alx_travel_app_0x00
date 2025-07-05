@@ -1,0 +1,66 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+ENV/
+env/
+*.env/
+
+# Django secret settings
+.env
+
+# SQLite (if used during testing)
+*.sqlite3
+
+# MySQL client dump files (optional)
+*.sql
+*.dump
+
+# Logs
+*.log
+
+# Local configuration files
+*.local
+*.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Celery beat schedule file
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage, testing and profiling
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Node.js (if you use npm for frontend assets)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Git itself
+.git/
